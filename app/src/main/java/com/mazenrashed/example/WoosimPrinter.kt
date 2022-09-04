@@ -1,9 +1,9 @@
 package com.mazenrashed.example
 
-import com.mazenrashed.printooth.data.PrintingImagesHelper
-import com.mazenrashed.printooth.data.converter.ArabicConverter
-import com.mazenrashed.printooth.data.converter.Converter
-import com.mazenrashed.printooth.data.printer.Printer
+import com.patricktorres27.printooth.data.PrintingImagesHelper
+import com.patricktorres27.printooth.data.converter.ArabicConverter
+import com.patricktorres27.printooth.data.converter.Converter
+import com.patricktorres27.printooth.data.printer.Printer
 
 class WoosimPrinter : Printer() {
     override fun useConverter(): Converter = ArabicConverter()

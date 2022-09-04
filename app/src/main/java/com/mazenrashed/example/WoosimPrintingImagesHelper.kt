@@ -1,7 +1,7 @@
 package com.mazenrashed.example
 
 import android.graphics.Bitmap
-import com.mazenrashed.printooth.data.PrintingImagesHelper
+import com.patricktorres27.printooth.data.PrintingImagesHelper
 import com.woosim.printer.WoosimImage
 
 class WoosimPrintingImagesHelper : PrintingImagesHelper{

@@ -1,7 +1,7 @@
 package com.mazenrashed.example
 
 import android.app.Application
-import com.mazenrashed.printooth.Printooth
+import com.patricktorres27.printooth.Printooth
 
 class ApplicationClass : Application(){
 
