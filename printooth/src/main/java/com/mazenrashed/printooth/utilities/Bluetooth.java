@@ -277,7 +277,7 @@ public class Bluetooth {
             try {
                 while ((msg = input.readLine()) != null) {
                     if (deviceCallback != null) {
-                        final String msgCopy = msg;
+                        String msgCopy = msg;
                         new android.os.Handler(Looper.getMainLooper()).post(() -> deviceCallback.onMessage(msgCopy));
                     }
                 }
