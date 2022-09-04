@@ -5,13 +5,13 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.mazenrashed.printooth.Printooth
-import com.mazenrashed.printooth.data.printable.ImagePrintable
-import com.mazenrashed.printooth.data.printable.Printable
-import com.mazenrashed.printooth.data.printable.TextPrintable
-import com.mazenrashed.printooth.data.printer.DefaultPrinter
-import com.mazenrashed.printooth.ui.ScanningActivity
-import com.mazenrashed.printooth.utilities.PrintingCallback
+import com.patricktorres27.printooth.Printooth
+import com.patricktorres27.printooth.data.printable.ImagePrintable
+import com.patricktorres27.printooth.data.printable.Printable
+import com.patricktorres27.printooth.data.printable.TextPrintable
+import com.patricktorres27.printooth.data.printer.DefaultPrinter
+import com.patricktorres27.printooth.ui.ScanningActivity
+import com.patricktorres27.printooth.utilities.PrintingCallback
 import kotlinx.android.synthetic.main.activity_main.*
 
 class WoosimActivity : AppCompatActivity() {

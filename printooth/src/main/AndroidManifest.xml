@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mazenrashed.printooth">
+    package="com.patricktorres27.printooth">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -8,7 +8,7 @@
 
     <application android:theme="@style/AppTheme">
         <activity
-            android:name="com.mazenrashed.printooth.ui.ScanningActivity"
+            android:name="com.patricktorres27.printooth.ui.ScanningActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
